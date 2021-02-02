@@ -1,0 +1,59 @@
+body{
+    background-color: dimgray;
+    padding-top: 60px;
+}
+
+.navbar-brand {
+    color: whitesmoke !important;
+}
+.navbar {
+    background-color: dimgray;
+}
+
+
+
+.course-editor-nav .nav-item{
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.course-editor-nav .nav-item .nav-link{
+    color: lightgray !important;
+}
+
+.course-editor-nav .nav-item.active{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.add-btn {
+    color: lightgray !important;
+}
+
+.active{
+    background-color: rgba(0,0,0,.13);
+    border-radius: 5px;
+}
+
+.module-list {
+    background: rgba(0,0,0,.3);
+}
+
+.module-list-pill{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left:5px;
+}
+
+
+.module-list-pill .nav-link{
+    background-color: rgba(0,0,0,.3);
+    color:whitesmoke;
+}
+
+.topic-list{
+    padding-top:30px;
+    background-color: whitesmoke;
+
+}
