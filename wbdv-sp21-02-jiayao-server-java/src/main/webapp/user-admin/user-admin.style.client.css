@@ -1,0 +1,29 @@
+tbody {
+    background-color: whitesmoke;
+
+    border: 10px solid dimgray;
+    border-radius: 10px;
+    border-style:hidden;
+    box-shadow: 0 0 0 4px whitesmoke;
+}
+
+.wbdv-header {
+    color: floralwhite;
+}
+
+#wbdv-create {
+    color: greenyellow;
+}
+
+#wbdv-update {
+    color: greenyellow;
+}
+.wbdv-delete {
+    color: red;
+    font-size: 30px;
+}
+
+.wbdv-select {
+    color: red;
+    font-size: 26px;
+}

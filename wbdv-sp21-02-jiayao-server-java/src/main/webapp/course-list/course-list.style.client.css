@@ -6,7 +6,6 @@ body {
     position: fixed;
     width: 100%;
     background-color: rgba(0,0,0,.3);
-    /*background-color: dodgerblue;*/
     color: floralwhite;
     z-index: 1;
 }
@@ -16,7 +15,6 @@ body {
     width: 100%;
     top: 48px;
     padding:5px;
-    /*background-color: lightgray;*/
     background-color: rgba(0,0,0,.3);
     color: floralwhite;
     border:1px solid darkgray;
@@ -38,9 +36,6 @@ body {
     padding-top:40px;
 }
 
-/*.container.course-list.modify-day.col-md-12 {*/
-/*    color: whitesmoke;*/
-/*}*/
 
 .container.course-list.row.modify-day.col-md-12 {
     color: whitesmoke !important;
@@ -52,7 +47,6 @@ body {
     border-top:1px solid darkgray;
     border-right:1px solid darkgray;
     border-left:1px solid darkgray;
-    /*border-down:1px solid darkgray;*/
     background: whitesmoke;
 }
 
