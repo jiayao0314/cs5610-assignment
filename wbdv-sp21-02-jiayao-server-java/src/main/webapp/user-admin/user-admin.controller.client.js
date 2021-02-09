@@ -54,7 +54,7 @@ function renderUsers(Users) {
             .prepend(`
     <tr>
         <td>${User.username}</td>
-        <td>${User.password}</td>
+        <td>&nbsp;</td>
         <td>${User.firstName}</td>
         <td>${User.lastName}</td>
         <td>${User.role}</td>
