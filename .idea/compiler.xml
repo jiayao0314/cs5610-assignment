@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wbdv-sp21-02-jiayao-server-java" />
+        <module name="cs5610-assignment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cs5610-assignment" target="8" />
       <module name="wbdv-sp21-02-jiayao-server-java" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cs5610-assignment" options="-parameters" />
       <module name="wbdv-sp21-02-jiayao-server-java" options="-parameters" />
     </option>
   </component>

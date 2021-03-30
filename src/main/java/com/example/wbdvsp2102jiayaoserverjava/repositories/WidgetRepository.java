@@ -1,0 +1,24 @@
+package com.example.wbdvsp2102jiayaoserverjava.repositories;
+
+import com.example.wbdvsp2102jiayaoserverjava.models.Widget;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface WidgetRepository
+        extends CrudRepository<Widget, Long> {
+
+    //    @Query(value="SELECT * FROM widgets", nativeQuery = true)
+    @Query("SELECT widget FROM Widget widget")
+    public List<Widget> findAllWidgets();
+
+    @Query(value="SELECT * FROM widgets WHERE id=:wid", nativeQuery = true)
+    public Widget findWidgetById(@Param("wid") Long widgetId);
+
+    @Query(value = "SELECT * FROM widgets WHERE topic_id=:tid", nativeQuery = true)
+    public List<Widget> findWidgetsForTopic(@Param("tid") String topicId);
+}
