@@ -14,7 +14,7 @@ public class WidgetController {
     WidgetService service;// = new WidgetService();
 
     @PostMapping("/api/topics/{tid}/widgets")
-    public Widget createWidget(
+    public Widget createWidgetForTopic(
             @PathVariable("tid") String topicId,
             @RequestBody Widget widget
     ) {
@@ -30,6 +30,7 @@ public class WidgetController {
 
     @GetMapping("/api/widgets")
     public List<Widget> findAllWidgets() {
+
         return service.findAllWidgets();
     }
 
